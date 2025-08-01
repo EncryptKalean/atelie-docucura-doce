@@ -46,3 +46,10 @@ https://encryptkalean.github.io/atelie-docucura-doce/
 
 - Email: kauanle78@gmail.com
 - LinkedIn: https://www.linkedin.com/in/kauanleandro/
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso exclusivo de EncryptKalean.
+Não é permitido uso ou reprodução sem autorização.
