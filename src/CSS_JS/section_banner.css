@@ -1,0 +1,64 @@
+section.banner {
+  background-color: var(--cor_Tema_1);
+}
+
+.banner > .center {
+  position: relative;
+  justify-items: center;
+}
+
+.banner .center > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.banner .center > div > img {
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.banner .center > div h1 {
+  font-size: 55px;
+}
+
+.banner .center > div p {
+  margin: 0 0 10px;
+  font-family: "Great Vibes", cursive;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.banner .center p {
+  font-size: 30px;
+  margin: 30px 0 40px;
+  max-width: 600px;
+}
+
+/* Decoração */
+
+.banner .decoracao,
+.decoracao_2 {
+  position: absolute;
+  right: 5%;
+  width: 70px;
+  aspect-ratio: 1;
+  opacity: 0.7;
+  rotate: 15deg;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+}
+
+.banner .decoracao {
+  top: 5%;
+  background: url("../Decoracao/decoracao-cupcake-1.webp") no-repeat center /
+    cover;
+}
+
+.decoracao_2 {
+  bottom: 5%;
+  background: url("../Decoracao/decoracao-cupcake-2.webp") no-repeat center /
+    cover;
+  rotate: 0deg;
+}

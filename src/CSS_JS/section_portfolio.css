@@ -1,0 +1,66 @@
+.portfolio {
+  background-color: var(--cor_Tema_1);
+  border-radius: 10% 10% 0 0;
+  margin-top: 50px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .container_portfolio {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.portfolio .container_portfolio h2 {
+  font-size: 45px;
+  color: var(--cor_Tema_3);
+}
+
+.container_portfolio .container_imagens_portfolio {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 50px;
+}
+
+.container_imagens_portfolio img {
+  width: 25%;
+  aspect-ratio: 1;
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.container_imagens_portfolio img:hover {
+  scale: 1.1;
+}
+
+/* Decoração */
+
+.container_portfolio .decoracao {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+}
+
+.container_portfolio .decoracao div {
+  background: url("../Decoracao/decoracao-linha-2.webp") no-repeat center /
+    cover;
+  width: 150px;
+  border: inherit;
+  transform: rotate(-5deg);
+}
+
+.container_portfolio .decoracao div:nth-of-type(2) {
+  transform: rotate(5deg) rotateY(180deg);
+}

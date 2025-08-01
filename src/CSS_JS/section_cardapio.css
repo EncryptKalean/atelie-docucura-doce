@@ -1,0 +1,86 @@
+.cardapio h2{
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.cardapio .center{
+    position: relative;
+    margin: 5% 0;
+}
+
+.cardapio > .center > div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.cardapio .container_cardapio > div > img{
+    width: 60px;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    filter: invert(1) sepia(1) saturate(10000%) hue-rotate(-150deg) drop-shadow( 1px 1px 1px rgba(0, 0, 0, 0.2));
+}
+
+.cardapio .container_cardapio > div > h3{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/* Diferenciais */
+
+.cardapio h2:nth-of-type(2){
+    margin-top: 100px;
+}
+
+.diferenciais > div{
+    display: flex;
+    gap: 20px;
+}
+
+.diferenciais > div{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.diferenciais > div img{
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: var(--cor_Tema_2);
+}
+
+.diferenciais > div svg{
+    aspect-ratio: 1;
+    color: var(--cor_Tema_2);
+    width: 40px;
+}
+
+.diferenciais > div h3{
+    font-weight: 800;
+    font-size: 23px;
+    text-align: left;
+}
+
+/* Decoração */
+
+.cardapio .linha_decoracao {
+    position: absolute;
+    width: 150px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.cardapio .linha_decoracao:nth-of-type(1) {
+    top: 0;
+    left: 0;
+}
+
+.cardapio .linha_decoracao:nth-of-type(2) {
+    bottom: 0;
+    right: 0;
+    rotate: 180deg;
+}

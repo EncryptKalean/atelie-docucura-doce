@@ -1,0 +1,65 @@
+@media screen and (max-width: 600px) {
+  /* Banner */
+
+  .banner .center > div {
+    flex-direction: column;
+  }
+
+  .banner .center > div h1 {
+    font-size: 40px;
+  }
+
+  .banner .center p {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+  
+  .decoracao_2 {
+    left: 5%;
+    top: 5%;
+  }
+
+  /* Cardapio */
+
+  .cardapio {
+    margin: 40px 0;
+  }
+  
+  /* Diferenciais */
+  
+  .diferenciais {
+    flex-direction: column;
+    padding: 0 5%;
+    gap: 30px !important;
+  }
+
+  .diferenciais > div {
+    justify-content: left;
+  }
+
+  .diferenciais > div:nth-of-type(even) {
+    justify-content: right;
+  }
+
+  /* Portfolio */
+
+  .portfolio .center,
+  .center .container_portfolio {
+    padding: 0;
+  }
+
+  .container_imagens_portfolio > img{
+    width: 45%;
+  }
+
+  /*  */
+
+  .ultimo_botao_contato{
+    padding: 5px 0;
+    background-color: var(--cor_Tema_4);
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    justify-items: center;
+  }
+}

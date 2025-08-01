@@ -1,0 +1,49 @@
+footer{
+    width: 100%;
+    background-color: var(--cor_Tema_4);
+    justify-content: center;
+    justify-items: center;
+}
+
+footer .center{
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+    justify-items: center;
+}
+
+footer .center h3{
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: inherit;
+    text-underline-offset: 5px;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    gap: 10px;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    background-color: var(--cor_Tema_3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+
+.instagram_icon{
+    width: 40px;
+    background: linear-gradient(150deg, blue, #d300c5, red, #ffc900);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.instagram_icon > svg{
+    margin-left: 0;
+  width: 100%;
+}
